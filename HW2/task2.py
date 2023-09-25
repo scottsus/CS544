@@ -17,12 +17,16 @@ for record in data:
 
     for i in range(len(labels)):
         word, label = sentence[i], labels[i]
+        if len(label) < 2:
+            continue
+
         emission_counts[(word, label)] += 1
         label_counts[label] += 1
 
         if i < len(labels) - 1:
             next_label = labels[i + 1]
-            transmission_counts[(label, next_label)] += 1
+            if len(next_label) >= 2:
+                transmission_counts[(label, next_label)] += 1
 
 emission_probs = {}
 for (word, label), emission_count in emission_counts.items():
