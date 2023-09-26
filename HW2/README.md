@@ -9,7 +9,6 @@
 ```
 python3 src/task3.py
 python3 src/task4.py
-
 ```
 
 ## Answers
