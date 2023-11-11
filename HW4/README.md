@@ -35,6 +35,11 @@ python3 task2.py
 
 - `./weights/task1.pt`
 - `./weights/task2.pt`
+  If you get an error regarding this, please run
+
+```
+mkdir weights
+```
 
 ### Cleanup
 
