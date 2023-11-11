@@ -41,3 +41,7 @@ python3 task2.py
 ```
 deactivate
 ```
+
+### Task 3
+
+Attempted but was unable to resolve the padding mask. Had to try though.

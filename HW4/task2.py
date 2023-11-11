@@ -23,7 +23,7 @@ Original file is located at
 !ls # Sanity check
 """
 
-"""## Task 0: Prepare Data
+"""## Data Preparation
 
 ### Load dataset
 """
@@ -82,7 +82,7 @@ import torch
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
-"""## Task 1: Bidirectional LSTM Model
+"""## Task 2: Bidirectional LSTM Model
 
 ### Define class
 """

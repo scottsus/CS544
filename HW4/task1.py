@@ -23,7 +23,7 @@ Original file is located at
 !ls # Sanity check
 """
 
-"""## Task 0: Prepare Data
+"""## Data Preparation
 
 ### Load dataset
 """
