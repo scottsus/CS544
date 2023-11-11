@@ -44,4 +44,4 @@ deactivate
 
 ### Task 3
 
-Attempted but was unable to resolve the padding mask. Had to try though.
+Attempted but was unable to resolve the padding mask. Had to try though. Effort can be found in `/notebook/task3.ipynb`.
